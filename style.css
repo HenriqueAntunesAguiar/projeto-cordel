@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    width: auto;
+    height: 150px;
+    padding-bottom: 10vh;
+}
+header h1{
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4.5vw;
+    font-variant: small-caps;
+    
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+
+}
+
+header a:hover{
+    color: rgb(1, 100, 1);
+}
+header p{
+    text-align: center;
+    font-weight: bold;
+}
+
+body div{
+    padding: 10vh 30px;
+    line-height: 2em;
+    font-size: 3vw;
+    font-weight: bolder;
+}
+div.imagem{
+    background-color: black;
+    color: white;
+    background-attachment: fixed;
+}
+
+div.normal{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+div#gray{
+    background-color: rgba(0, 0, 0, 0.308);
+    padding-left: 0px;
+    display: inline-block
+}
+
+div#joanina{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+
+div#pag{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    box-shadow: inset 6px 6px 13px 0px black;
+}
