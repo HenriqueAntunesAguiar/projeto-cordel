@@ -70,3 +70,21 @@ div#pag{
     background-position: right center;
     box-shadow: inset 6px 6px 13px 0px black;
 }
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+footer p{
+    margin: 0px;
+}
+
+p a{
+    color: white;
+}
+p a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
